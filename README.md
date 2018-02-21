@@ -7,4 +7,4 @@ This project is aimed to show the capability of:
  - Finding views by their ID
  
  
- \nThank you to the Sandy Pines Recreational Community for the background photo.
+ Thank you to the Sandy Pines Recreational Community for the background photo.
