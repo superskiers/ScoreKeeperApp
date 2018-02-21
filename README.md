@@ -5,4 +5,6 @@ This project is aimed to show the capability of:
  - Updating views
  - Properly scoping variables
  - Finding views by their ID
- Thank you to the Sandy Pines Recreational Community for the background photo.
+ 
+ 
+ \nThank you to the Sandy Pines Recreational Community for the background photo.
