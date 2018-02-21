@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <dimen name="buckDP">100dp</dimen>
+    <dimen name="fiftyDP">50dp</dimen>
+    <dimen name="quartDP">25dp</dimen>
+    <dimen name="one35DP">135dp</dimen>
+    <dimen name="huitDP">8dp</dimen>
+    <dimen name="trenteDP">30dp</dimen>
+    <dimen name="one28DP">128dp</dimen>
+    <dimen name="soixanteDP">70dp</dimen>
+    <dimen name="one15DP">115dp</dimen>
+    <dimen name="five6DP">56dp</dimen>
+    <dimen name="quaranteSP">40sp</dimen>
+    <dimen name="four8DP">48dp</dimen>
+    <dimen name="vingtSP">20sp</dimen>
+    <dimen name="seizeDP">16dp</dimen>
+    <dimen name="vingt9DP">29dp</dimen>
+    <dimen name="oneO8DP">108dp</dimen>
+</resources>

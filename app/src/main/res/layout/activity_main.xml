@@ -1,0 +1,111 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pingpong1">
+
+
+
+    <ImageView
+        android:id="@+id/usaflag"
+        android:layout_width="@dimen/buckDP"
+        android:layout_height="@dimen/fiftyDP"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="@dimen/vingt9DP"
+        android:layout_marginTop="@dimen/huitDP"
+        android:src="@drawable/usaflag" />
+
+    <ImageView
+        android:id="@+id/frenchflag"
+        android:layout_width="@dimen/buckDP"
+        android:layout_height="@dimen/fiftyDP"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/vingt9DP"
+        android:layout_marginTop="@dimen/huitDP"
+        android:src="@drawable/frenchflag" />
+
+
+    <TextView
+        android:id="@+id/usaScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/usaflag"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="@dimen/soixanteDP"
+        android:text="@string/zeroScore"
+        android:freezesText="true"
+        android:textColor="#000000"
+        android:textSize="@dimen/quaranteSP" />
+
+    <TextView
+        android:id="@+id/frenchScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/frenchflag"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/soixanteDP"
+        android:text="@string/zeroScore"
+        android:freezesText="true"
+        android:textColor="#000000"
+        android:textSize="@dimen/quaranteSP" />
+
+
+    <Button
+        android:layout_width="@dimen/four8DP"
+        android:layout_height="@dimen/four8DP"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/usaScore"
+        android:layout_marginLeft="@dimen/quartDP"
+        android:onClick="decpointUSA"
+        android:textSize="@dimen/vingtSP"
+        android:background="@drawable/circle_button"
+        android:text="@string/minus" />
+
+    <Button
+        android:layout_width="@dimen/four8DP"
+        android:layout_height="@dimen/four8DP"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/usaScore"
+        android:layout_marginLeft="85dp"
+        android:background="@drawable/circle_button"
+        android:onClick="incpointUSA"
+        android:textSize="@dimen/vingtSP"
+        android:text="@string/plus" />
+
+    <Button
+        android:layout_width="@dimen/four8DP"
+        android:layout_height="@dimen/four8DP"
+        android:layout_below="@id/frenchScore"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="85dp"
+        android:onClick="decpointFR"
+        android:textSize="@dimen/vingtSP"
+        android:background="@drawable/circle_button"
+        android:text="@string/minus" />
+
+    <Button
+        android:layout_width="@dimen/four8DP"
+        android:layout_height="@dimen/four8DP"
+        android:layout_below="@id/frenchScore"
+        android:layout_alignParentRight="true"
+        android:onClick="incpointFR"
+        android:layout_marginRight="@dimen/quartDP"
+        android:textSize="@dimen/vingtSP"
+        android:background="@drawable/circle_button"
+        android:text="@string/plus" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/fiftyDP"
+        android:layout_marginBottom="@dimen/huitDP"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:onClick="resetScore"
+        android:padding="@dimen/seizeDP"
+        android:textStyle="bold"
+        android:background="@drawable/rounded_corners"
+        android:text="@string/reset" />
+
+</RelativeLayout>
