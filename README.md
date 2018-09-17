@@ -6,5 +6,6 @@ This project is aimed to show the capability of:
  - Properly scoping variables
  - Finding views by their ID
  
+ ![](ScoreKeeperScreensShots.png)
  
  Thank you to the Sandy Pines Recreational Community for the background photo.
