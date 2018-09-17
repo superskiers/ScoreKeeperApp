@@ -18,4 +18,7 @@
     <dimen name="seizeDP">16dp</dimen>
     <dimen name="vingt9DP">29dp</dimen>
     <dimen name="oneO8DP">108dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="forty2_sp">42sp</dimen>
+    <dimen name="thirty6_dp">36dp</dimen>
 </resources>
